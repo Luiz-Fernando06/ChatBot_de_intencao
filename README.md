@@ -1,2 +1,2 @@
-# ChatBot_de_inten-ao
+# ChatBot de intenção
 Modelo de chatbot de intenção para diferentes datasets
