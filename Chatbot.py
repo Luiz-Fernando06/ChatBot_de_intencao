@@ -43,7 +43,6 @@ def gerar_resposta(menssagem):
     return "Desculpe, não entendi sua pergunta."
 
 #Testando no terminal
-print("Esse chat bot é de uma empresa ficticia, criada para testar esse modelo, não forneça \nnenhum dado pessoal que o programa pedir. \nEssa é uma empresa de produtos de beleza especificamente para cabelos, então faça perguntas \nsobre os produtos para treinar o modelo e ele aprender com suas perguntas. ")
 print("Digite 'sair', 'fim' ou 'tchau' para encerrar a conversa.")
 while True:
   entrada = input("Voce: ")
