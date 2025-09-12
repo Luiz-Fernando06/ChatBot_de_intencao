@@ -1,0 +1,131 @@
+{
+  "intents": [
+    {
+      "name": "saudacao",
+      "examples": [
+        "Oi",
+        "Olá, tudo bem?",
+        "Boa tarde",
+        "Alguém aí?",
+        "Oi chatbot"
+      ],
+      "responses": [
+        "Olá! Seja bem-vindo à Beleza Raiz 💚 Como posso te ajudar hoje?",
+        "Oi, tudo bem? Estou aqui para tirar suas dúvidas sobre produtos e pedidos."
+      ]
+    },
+    {
+      "name": "sobre_empresa",
+      "examples": [
+        "Quem são vocês?",
+        "O que é a Beleza Raiz?",
+        "Quero saber mais sobre a empresa",
+        "Vocês são nacionais?"
+      ],
+      "responses": [
+        "A Beleza Raiz é uma marca nacional de produtos capilares, com venda 100% online e entrega para todo o Brasil.",
+        "Somos uma marca que acredita em produtos de qualidade e preço justo para todos os tipos de cabelo."
+      ]
+    },
+    {
+      "name": "catalogo_produtos",
+      "examples": [
+        "Quais produtos vocês têm?",
+        "Vocês vendem shampoo?",
+        "Quero ver condicionadores",
+        "Mostra as máscaras capilares"
+      ],
+      "responses": [
+        "Temos shampoos, condicionadores, máscaras, finalizadores e tratamentos capilares. Quer ver os mais vendidos?",
+        "Nosso catálogo está aqui: [link para catálogo]"
+      ]
+    },
+    {
+      "name": "preco_produtos",
+      "examples": [
+        "Quanto custa o shampoo?",
+        "Qual o preço da máscara?",
+        "Vocês têm produtos baratos?",
+        "Qual é o valor do kit cronograma capilar?"
+      ],
+      "responses": [
+        "Nossos shampoos custam em média R$ 25. Quer ver as opções disponíveis?",
+        "O kit cronograma capilar sai por R$ 45. Quer que eu envie o link para compra?"
+      ]
+    },
+    {
+      "name": "promocoes_descontos",
+      "examples": [
+        "Tem promoção?",
+        "Vocês têm cupom de desconto?",
+        "Quais são as ofertas de hoje?",
+        "Tem frete grátis?"
+      ],
+      "responses": [
+        "Sim! Temos promoções sazonais e cupons de desconto. Acompanhe em nosso site ou redes sociais.",
+        "Frete grátis em compras acima de R$ 120!"
+      ]
+    },
+    {
+      "name": "entrega",
+      "examples": [
+        "Vocês entregam para minha cidade?",
+        "Qual o prazo de entrega?",
+        "Como funciona a entrega?",
+        "É correios ou transportadora?"
+      ],
+      "responses": [
+        "Entregamos para todo o Brasil. O prazo varia de acordo com o CEP.",
+        "Quer que eu consulte o prazo para você? É só me passar seu CEP."
+      ]
+    },
+    {
+      "name": "status_pedido",
+      "examples": [
+        "Onde está meu pedido?",
+        "Quero rastrear minha compra",
+        "Meu pedido já saiu para entrega?"
+      ],
+      "responses": [
+        "Você pode rastrear seu pedido no link que enviamos por e-mail. Quer que eu te envie o link novamente?",
+        "Me passe o número do pedido que eu verifico para você."
+      ]
+    },
+    {
+      "name": "troca_devolucao",
+      "examples": [
+        "Posso trocar um produto?",
+        "Quero devolver minha compra",
+        "Comprei errado, o que faço?"
+      ],
+      "responses": [
+        "Você tem até 7 dias após o recebimento para solicitar a troca ou devolução.",
+        "Envie seu número de pedido e vamos te ajudar com o processo de devolução."
+      ]
+    },
+    {
+      "name": "reclamacao",
+      "examples": [
+        "Meu produto veio com defeito",
+        "Não recebi minha compra",
+        "Estou insatisfeito"
+      ],
+      "responses": [
+        "Sinto muito pelo problema! Me envie o número do pedido para resolvermos rapidamente.",
+        "Nosso objetivo é que você fique satisfeito. Vamos resolver isso para você!"
+      ]
+    },
+    {
+      "name": "despedida",
+      "examples": [
+        "Tchau",
+        "Obrigado",
+        "Valeu, até mais"
+      ],
+      "responses": [
+        "Até mais! 💚 Sempre que precisar, é só chamar.",
+        "Obrigado pelo contato! Volte sempre."
+      ]
+    }
+  ]
+}
