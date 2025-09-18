@@ -1,9 +1,9 @@
 # 🤖 Chatbot Beleza Raiz
 
 
-Este projeto é um chatbot de atendimento baseado em processamento de linguagem natural (NLP), capaz de responder a perguntas sobre o tema “Beleza Raiz” usando um modelo de Regressão Logística treinado com dados de intenções (intents) e exemplos de perguntas.
+Este projeto é um chatbot de atendimento baseado em processamento de linguagem natural (NLP), capaz de responder a perguntas sobre a empresa ficticia Beleza Raiz usando um modelo de Regressão Logística treinado com dados de intenções (intents) e exemplos de perguntas.
 
-O bot é simples, mas eficiente, permitindo interações em tempo real pelo terminal.
+O bot é simples e com poucos exemplos no dataset, mas eficiente, permitindo interações em tempo real pelo terminal.
 
 ⚙️ Como funciona
 
