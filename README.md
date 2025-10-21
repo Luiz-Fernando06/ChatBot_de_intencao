@@ -1,75 +1,19 @@
-# 🤖 Chatbot Beleza Raiz
+# Chatbot Inteligente — Beleza Raiz
 
+## Objetivo:
+Desenvolver um chatbot baseado em Processamento de Linguagem Natural (NLP) capaz de identificar intenções e responder de forma coerente a perguntas sobre o tema “Beleza Raiz”.
 
-Este projeto é um chatbot de atendimento baseado em processamento de linguagem natural (NLP), capaz de responder a perguntas sobre a empresa ficticia Beleza Raiz usando um modelo de Regressão Logística treinado com dados de intenções (intents) e exemplos de perguntas.
+## Principais etapas realizadas:
 
-O bot é simples e com poucos exemplos no dataset, mas eficiente, permitindo interações em tempo real pelo terminal.
+- Preparação dos dados: Carregamento do dataset em formato JSON, contendo intenções, exemplos de perguntas e possíveis respostas.
 
-⚙️ Como funciona
+- Vetorização do texto: Conversão das mensagens em representações numéricas utilizando TF-IDF (Term Frequency–Inverse Document Frequency).
 
-Carrega o dataset de intenções (dataset_chatbot_beleza_raiz.json) que contém:
+- Treinamento do modelo: Aplicação de Regressão Logística para classificar as intenções das mensagens com alta acurácia (≈ 100%).
 
-Nome da intenção (name)
+- Geração de respostas: Mapeamento da intenção prevista para uma resposta correspondente, selecionada aleatoriamente para maior naturalidade.
 
-Exemplos de perguntas (examples)
+- Interação em terminal: Implementação de um loop interativo, permitindo conversas diretas com o usuário até o comando de saída.
 
-Respostas possíveis (responses)
-
-Prepara os dados:
-
-Extrai as perguntas e suas respectivas intenções.
-
-Vetoriza o texto com TF-IDF para transformar as palavras em números que o modelo entende.
-
-Treina o modelo:
-
-Usa Logistic Regression para classificar a intenção de cada pergunta.
-
-Divide os dados em treino e teste, garantindo que o modelo seja preciso.
-
-Geração de respostas:
-
-O bot recebe uma pergunta do usuário.
-
-Identifica a intenção usando o modelo treinado.
-
-Seleciona aleatoriamente uma resposta adequada dentro da intenção.
-
-Se não identificar a intenção, retorna: "Desculpe, não entendi sua pergunta."
-
-Interação:
-
-O usuário digita perguntas no terminal.
-
-Comandos como "sair", "fim" ou "tchau" encerram a conversa.
-
-🛠 Tecnologias utilizadas
-
-Python 3 – Linguagem principal.
-
-Scikit-learn – Vetorização de texto e classificação (TF-IDF + Logistic Regression).
-
-JSON – Armazenamento das intenções, perguntas e respostas.
-
-Random – Seleção aleatória de respostas.
-
-▶️ Como usar
-1. Instalar dependências
-pip install scikit-learn pandas
-
-2. Rodar o chatbot
-python chatbot_beleza_raiz.py
-
-3. Conversar
-
-Digite perguntas relacionadas a cuidados, beleza ou informações do dataset.
-
-Para encerrar a conversa, digite: "sair", "fim" ou "tchau".
-
-🎯 Objetivo
-
-Demonstrar processamento de linguagem natural com Python.
-
-Criar um chatbot funcional capaz de identificar intenções e responder de forma coerente.
-
-Servir como base para projetos de atendimento automatizado ou assistentes virtuais.
+## Resumo:
+Chatbot treinado com machine learning supervisionado, capaz de compreender perguntas em linguagem natural e responder de forma contextual.
